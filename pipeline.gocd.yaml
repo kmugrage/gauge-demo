@@ -10,7 +10,7 @@ pipelines:
       - build:
           jobs:
             build:
-              elastic_profile_id: docker-local
+              elastic_profile_id: docker-maven
               tasks:
                 - exec:
                     command: ./mvnw
