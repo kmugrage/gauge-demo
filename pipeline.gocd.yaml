@@ -1,0 +1,14 @@
+format_version: 2
+
+pipelines:
+  pet-clinic:
+    materials:
+      demo-git:
+        git: https://github.com/kmugrage/gauge-demo
+    stages:
+      - build:
+          jobs:
+            build:
+              tasks:
+                - exec:
+                    command: echo
