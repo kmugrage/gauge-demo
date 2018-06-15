@@ -12,4 +12,7 @@ pipelines:
             build:
               tasks:
                 - exec:
-                    command: echo
+                    command: ./mvnw
+                    arguments:
+                      - "clean"
+                      - "test"
