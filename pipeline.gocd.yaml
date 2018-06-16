@@ -15,5 +15,4 @@ pipelines:
                 - exec:
                     command: mvn
                     arguments:
-                      - "clean"
-                      - "test"
+                      - "spring-boot:run"
