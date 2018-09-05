@@ -16,3 +16,12 @@ pipelines:
                     command: which
                     arguments:
                       - "javac"
+      - teat:
+          jobs:
+            build:
+              elastic_profile_id: docker-maven
+              tasks:
+                - exec:
+                    command: which
+                    arguments:
+                      - "javac"
